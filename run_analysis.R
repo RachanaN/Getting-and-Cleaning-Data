@@ -68,5 +68,5 @@ names(tidy2)<-gsub("BodyBody", "Body", names(tidy2))
 names(tidy2)<-gsub("mean()", "Mean", names(tidy2))
 names(tidy2)<-gsub("std()", "Std.Deviation", names(tidy2))
 ## writing into a text file
-write.table(tidy2, "Samsung_Data.txt", sep = "")
+write.table(tidy2, "Samsung_Data1.txt", sep = "")
 
